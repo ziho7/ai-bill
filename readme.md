@@ -18,3 +18,6 @@ AI记账软件全栈开发项目
   - 数据库: Supabase提供的Postgresql
   - ORM: Drizzle
   - 模型: Deepseek
+
+源代码: https://github.com/ziho7/ai-bill
+JWT登录流程图: https://excalidraw.com/#json=WwYkV2Fc-X_V8bdEjTrAI,6d4wj2bu0c4U--6zDJKjKg
