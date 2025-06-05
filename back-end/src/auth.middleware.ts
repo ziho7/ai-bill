@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const authMiddleware = async (req: Request, res: Response, next: NextFunction) => {
-    const token = req.header("Authorization")?.replace("Bearer ", "");
+    const token = req.header("Authorization")?.replace("Bearerxxx ", "");
     console.log('token', token)
     const {user_id: userId} = req.body
     if (!token) {
